@@ -9,7 +9,8 @@ const router = require('./router')
 async function start() {
   const app = express()
   const PORT = process.env.PORT || 3000
-  task.start()
+  //task.start()
+  task.taskCallback()
   await dbClient.connect()
   app.use(express.json())
   app.use(router)
