@@ -1,0 +1,6 @@
+json-holder/node_modules
+main-app/node_modules
+main-app/.env
+main-app/package-lock.json
+json-holder/package-lock.json
+json-holder/some_data.json
